@@ -1,18 +1,37 @@
-# React + Vite
+# 💎 Jewelry Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and elegant jewelry website built with [React](https://reactjs.org/) and [Vite](https://vitejs.dev/). This project is designed to showcase a collection of high-quality jewelry with smooth navigation, responsive design, and fast performance.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ⚡ Lightning-fast setup with Vite
+- 💍 Product gallery for jewelry items
+- 📱 Fully responsive design
+- 🧭 Smooth navigation with React Router
+- 🎨 Stylish and modern UI (custom or with CSS framework)
+- 🛒 (Optional) Shopping cart / e-commerce functionality
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- **React**
+- **Vite**
+- **JavaScript**
+- **SCSS**
 
-Note: This will impact Vite dev & build performances.
+## 🚀 Getting Started
 
-## Expanding the ESLint configuration
+### Prerequisites
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (v16 or later recommended)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+### Installation
+
+1. **Clone the repository:**
+
+```bash
+git clone https://github.com/your-username/jewelry-website.git
+cd jewelry-website
+
