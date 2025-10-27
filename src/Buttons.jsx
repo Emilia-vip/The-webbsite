@@ -36,6 +36,10 @@ function App() {
         <button onClick={scrollToPriser}>Behandlingar/Priser</button>
       </div>
 
+      <div>
+        <button className="scroll-top" onClick={() => window.scrollTo({top:0,behavior: 'smooth'})}>↑</button>
+      </div>
+
     
 
       <div ref={bokaRef} id="boka" className="section">
@@ -57,7 +61,13 @@ function App() {
      
       <div ref={priserRef} id="Priser" className="section">
         <h2>Behandlingar & Priser</h2>
-        <p>Här kommer dina behandlingar och priser att visas.</p>
+        <p>
+        Massage behandling 45min - 750kr
+            <br />
+        Massage behandling 60min - 950kr
+            <br />
+        Massage behandling 90min - 1300kr
+        </p>
       </div>
     </>
   );
