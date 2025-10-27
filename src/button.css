@@ -8,11 +8,11 @@ button {
     border-radius: 10px;
     font-size: 20px;
     cursor: pointer;
+    gap: 40px;
 
 }
-
 button:hover {
-    background-color: rgb(47, 133, 42);
+    background-color: rgb(61, 135, 57);
 }
 
 
@@ -41,6 +41,7 @@ img {
     height: 70%;
     z-index: -1;
     margin-top: -29px;
+    margin-left: -50%;
 }
 
 #boka{
@@ -53,7 +54,13 @@ img {
     text-align: center;
 }
 
+
 #Priser{
     margin-top: 700px;
     text-align: center;
+}
+
+#container{
+    text-align: center;
+    
 }
