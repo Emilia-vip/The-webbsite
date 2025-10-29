@@ -31,8 +31,8 @@ function App() {
 
         <h1>Massageterapeut Jeanette Eriksson</h1>
 
-        <button onClick={scrollToBoka}>BOKA</button>
-        <button onClick={scrollToOmMig}>About Me</button>
+        <button onClick={scrollToBoka}>BOKA TID</button>
+        <button onClick={scrollToOmMig}>OM MIG</button>
         <button onClick={scrollToPriser}>Behandlingar/Priser</button>
       </div>
 
