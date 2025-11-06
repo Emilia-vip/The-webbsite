@@ -61,7 +61,7 @@ main{
 }
 .logo {
   position: absolute;
-  height: 70px; /* gör bilden mindre */
+  height: 70px;
   width: auto;
   margin-left: -100px;
   margin-top: 10px;
@@ -156,4 +156,5 @@ select,
 textarea {
   font-size: 16px !important;
 }
+
 }
