@@ -55,8 +55,8 @@ main{
 
 .logo-title {
   display: flex;
-  align-items: center; /* centrera h1 och bild vertikalt */
-  gap: 10px; /* lite luft mellan bild och text */
+  align-items: center; 
+  gap: 10px;
   
 }
 .logo {
@@ -108,4 +108,52 @@ h3{
   line-height: 30px;
 }
 
+@media (max-width: 768px) {
+  #root {
+    width: 95vw;
+  }
 
+  header {
+    width: 100%;
+    gap: 15px;
+  }
+
+  .logo {
+    position: static;
+    height: 60px;
+    margin: 0 auto;
+  }
+
+  .logo-title {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .name {
+    font-size: 1.6rem;
+  }
+
+  .nav-links {
+    gap: 20px;
+  }
+
+  .nav-links a {
+    font-size: 16px;
+  }
+
+  main {
+    width: 100%;
+  }
+
+  .info,
+  .about {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+input,
+select,
+textarea {
+  font-size: 16px !important;
+}
+}
